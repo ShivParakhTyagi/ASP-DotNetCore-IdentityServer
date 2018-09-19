@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{905D72B0-8C43-4D9B-99A2-ED3CD3A370E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{AF934061-C0E4-46D7-B350-904F52058459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{905D72B0-8C43-4D9B-99A2-ED3CD3A370E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905D72B0-8C43-4D9B-99A2-ED3CD3A370E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905D72B0-8C43-4D9B-99A2-ED3CD3A370E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905D72B0-8C43-4D9B-99A2-ED3CD3A370E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF934061-C0E4-46D7-B350-904F52058459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF934061-C0E4-46D7-B350-904F52058459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF934061-C0E4-46D7-B350-904F52058459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF934061-C0E4-46D7-B350-904F52058459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {962CF521-0038-417E-9B01-289688C6E84E}
+	EndGlobalSection
+EndGlobal
