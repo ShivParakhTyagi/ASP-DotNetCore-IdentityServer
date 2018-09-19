@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{905D72B0-8C43-4D9B-99A2-ED3CD3A370E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{905D72B0-8C43-4D9B-99A2-ED3CD3A370E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{AF934061-C0E4-46D7-B350-904F52058459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{AF934061-C0E4-46D7-B350-904F52058459}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0} = {0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

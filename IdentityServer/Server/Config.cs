@@ -21,7 +21,7 @@ namespace Server
             {
                 new Client()
                 {
-                    ClientId = "test-api",
+                    ClientId = "test-api-cid",
                     ClientSecrets = new[] {new Secret("secret".Sha256())},
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPasswordAndClientCredentials,
                     AllowedScopes = new[] {"test-api"}
