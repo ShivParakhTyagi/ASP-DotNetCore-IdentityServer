@@ -1,0 +1,53 @@
+﻿using System.Collections.Generic;
+using IdentityServer4.Models;
+using IdentityServer4.Test;
+
+namespace Server.SqlServer
+{
+    public class Config
+    {
+        public static IEnumerable<ApiResource> GetApiResources()
+        {
+            return new[]
+            {
+                new ApiResource("test-api", "Test Api"),
+            };
+        }
+
+        public static IEnumerable<IdentityResource> GetIdentityResources()
+        {
+            return new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Profile(),
+            };
+        }
+
+        public static IEnumerable<Client> GetClients()
+        {
+            return new[]
+            {
+                new Client()
+                {
+                    ClientId = "test-api-cid",
+                    ClientSecrets = new[] {new Secret("secret".Sha256())},
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPasswordAndClientCredentials,
+                    AllowedScopes = new[] {"test-api"}
+                },
+            };
+        }
+
+        public static IEnumerable<TestUser> GetUsers()
+        {
+            return new[]
+            {
+                new TestUser()
+                {
+                    SubjectId = "<Random-UID>-1",
+                    Username = "admin",
+                    Password = "admin"
+                },
+            };
+        }
+    }
+}
