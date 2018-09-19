@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.SqlServer", "Server.SqlServer\Server.SqlServer.csproj", "{B930A20B-4B11-457B-A00C-CC2CD84F6C88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CBC6F96-CD22-4646-A37B-F51EA4B8DEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B930A20B-4B11-457B-A00C-CC2CD84F6C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B930A20B-4B11-457B-A00C-CC2CD84F6C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B930A20B-4B11-457B-A00C-CC2CD84F6C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B930A20B-4B11-457B-A00C-CC2CD84F6C88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
